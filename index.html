@@ -127,8 +127,7 @@
       position: relative;
       z-index: 1;
       display: grid;
-      grid-template-columns: minmax(0, 1.12fr) minmax(320px, .88fr);
-      gap: 80px;
+      grid-template-columns: minmax(0, 760px);
       align-items: center;
       padding: 100px 0;
     }
@@ -334,6 +333,14 @@
       letter-spacing: -.025em;
       color: var(--navy);
     }
+    .about-body {
+      max-width: 760px;
+      margin-top: 26px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .about-body p { margin: 0; }
+    .about-body p + p { margin-top: 18px; }
 
     .contact { border-top: 1px solid var(--line); }
     .contact-grid {
@@ -469,8 +476,8 @@
           <p class="eyebrow">Väner Analytics AB</p>
           <h1>Teknik, data och digitala produkter.</h1>
           <p class="lead">
-            Vi utvecklar och driver digitala produkter och tjänster inom teknik,
-            data och analys.
+            Väner Analytics AB utvecklar och driver digitala produkter och
+            tjänster med fokus på teknik, data och analys.
           </p>
           <div class="actions">
             <a class="btn btn-primary" href="#produkter">Våra produkter</a>
@@ -478,23 +485,24 @@
           </div>
         </div>
 
-        <aside class="hero-note">
-          <strong>Från idé till långsiktig produkt.</strong>
-          <p>
-            Programvaruutveckling, artificiell intelligens, dataanalys
-            och utveckling av egna digitala tjänster.
-          </p>
-        </aside>
       </div>
     </section>
 
     <section id="om">
       <div class="wrap">
         <p class="eyebrow">Om Väner Analytics</p>
-        <p class="about-copy">
-          Väner Analytics AB är bolaget bakom digitala produkter och lösningar
-          där teknik, data och praktisk nytta möts.
-        </p>
+        <h2>Vi utvecklar digitala lösningar med långsiktigt fokus.</h2>
+        <div class="about-body">
+          <p>
+            Väner Analytics AB är ett teknikbolag som utvecklar och förvaltar
+            digitala produkter, programvara samt data- och analystjänster.
+          </p>
+          <p>
+            Vi kombinerar teknisk utveckling med data och analys för att skapa
+            tjänster som är enkla att använda, effektiva att driva och möjliga
+            att utveckla över tid.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -544,7 +552,7 @@
         <div class="section-head">
           <div>
             <p class="eyebrow">Produkter &amp; tjänster</p>
-            <h2>Det vi bygger</h2>
+            <h2>Våra produkter</h2>
           </div>
           <p>
             Väner Analytics utvecklar och driver digitala tjänster under
@@ -569,8 +577,8 @@
             <span class="tag">Digital tjänst</span>
             <h3>Börsklimat</h3>
             <p>
-              En digital tjänst från Väner Analytics AB. Mer information
-              finns på Börsklimat.
+              Börsklimat är en digital tjänst utvecklad och driven av Väner
+              Analytics AB.
             </p>
             <a class="text-link" href="https://börsklimat.se" target="_blank" rel="noopener">
               Besök börsklimat.se
@@ -586,8 +594,8 @@
           <p class="eyebrow">Kontakt</p>
           <h2>Hör av dig</h2>
           <p>
-            För frågor om Väner Analytics AB, våra produkter eller ett
-            möjligt samarbete är du välkommen att kontakta oss.
+            Har du frågor om Väner Analytics, våra produkter eller ett möjligt
+            samarbete är du välkommen att höra av dig.
           </p>
         </div>
 
